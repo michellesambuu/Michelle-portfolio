@@ -6,3 +6,63 @@ header {
     background-color: #13293d;
     color: #fff;
   }
+
+  header nav{
+    padding:10px
+  }
+
+  header nav ul{
+    margin-right: 3vw;
+    display: flex;
+    justify-content: end;
+    list-style: none;
+  }
+  header nav ul li{
+    margin-left: 3vw;
+    font-size: 1.2rem;
+  }
+  a{
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+
+  #aboutme{
+    text-align: center;
+    height:80vh;
+
+  }
+  #aboutme h2{
+    margin-top: 8vh;
+    font-size: 2rem;
+  }
+  .aboutme-content{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    margin: 5vh 3vw 5vh 3vw
+  }
+
+  .aboutme-content p{
+    font-size: 1.5rem;
+    margin-left:3vw;
+    text-align: justify;
+  }
+
+  #works h2{
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .mainRow{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+  }
+
+  .workRow{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    margin-bottom: 3vh;
+  }
