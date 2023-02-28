@@ -2,11 +2,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
+    padding: 0%;
     background-color: #13293d;
     color: #fff;
   }
-
+  span{
+    color: lemonchiffon;
+  }
   header nav{
     padding:10px
   }
@@ -24,22 +26,35 @@ header {
   a{
     text-decoration: none;
     color: whitesmoke;
+    font-weight: bold;
+    text-transform:capitalize ;
+
+  }
+  nav ul li a:hover {
+    color: lemonchiffon;
+
   }
 
 
   #aboutme{
     text-align: center;
-    height:100vh;
+    height:auto; 
+    width: auto; 
+    background-color: lemonchiffon;
 
   }
+  .about img{
+    height: auto;
+    width: 400px;
+  }
   #aboutme h2{
-    margin-top: 8vh;
+    margin-top: auto;
     font-size: 2rem;
   }
   .aboutme-content{
     margin-top: 10vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin: 5vh 3vw 5vh 3vw
   }
 
