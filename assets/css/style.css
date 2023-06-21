@@ -81,3 +81,12 @@ header {
     gap:15px;
     margin-bottom: 3vh;
   }
+    
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0%;
+    background-color: #13293d;
+    color: #fff;
+  }
